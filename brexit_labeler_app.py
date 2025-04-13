@@ -9,8 +9,9 @@ LABEL_FILE = "labels.csv"
 
 # Goal tags and campaign phases
 GOAL_TAGS = [
-    "attack", "fear appeal", "celebration", "glorify leader",
-    "call to action", "political criticism"
+    "attack", "fear appeal", "glorify leader", "celebration",
+    "call to action", "policy endorsement", "political criticism",
+    "nationalism", "symbolic projection", "emotion appeal"
 ]
 PHASES = ["early", "climax", "post", "reversal"]
 

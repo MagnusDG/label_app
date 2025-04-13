@@ -52,4 +52,5 @@ if submitted:
     df_labels = pd.concat([df_labels, new_row], ignore_index=True)
     df_labels.to_csv(LABEL_FILE, index=False)
     st.success(f"Labeled {current_img} and saved.")
-    st.experimental_rerun()
+    st.session_state["just_labeled"] = True
+st.experimental_set_query_params(updated=True)
